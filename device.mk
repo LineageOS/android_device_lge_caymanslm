@@ -18,6 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 DEVICE_NAME := caymanslm
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+TARGET_LGE_HAS_NXP_NFC := true
 
 # Include from common device configuration
 $(call inherit-product, device/lge/sdm845-common/sdm845.mk)
