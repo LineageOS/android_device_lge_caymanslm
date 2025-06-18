@@ -18,6 +18,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 DEVICE_NAME := caymanslm
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
+TARGET_LGE_HAS_NXP_NFC := true
 
 # Include from common device configuration
 $(call inherit-product, device/lge/sdm845-common/sdm845.mk)
@@ -40,6 +41,12 @@ PRODUCT_COPY_FILES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint@2.3-service.lge
+
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
+    vendor.nxp.nxpese@1.0.vendor:64 \
+    vendor.nxp.nxpnfc@1.0.vendor:64
 
 # Permissions
 PRODUCT_COPY_FILES += \
