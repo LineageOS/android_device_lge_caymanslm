@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ff86ff99_26c42020",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 26313
+      },
+      "writtenOn": "2025-06-22T22:08:47Z",
+      "side": 1,
+      "message": "Not ready. Another radius",
+      "revId": "ad5fcb36dcf0989f984058c6ba324f6e48d818be",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
