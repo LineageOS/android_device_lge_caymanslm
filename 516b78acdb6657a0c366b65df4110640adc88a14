@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "69c4273e_88c42209",
+        "filename": "overlay/frameworks/base/packages/SystemUI/res/values/lineage_config.xml",
+        "patchSetId": 5
+      },
+      "lineNbr": 62,
+      "author": {
+        "id": 30416
+      },
+      "writtenOn": "2025-06-23T08:50:09Z",
+      "side": 1,
+      "message": "This is a deprecated overlay since now its moved to an implementation where the kernel display driver turns on HBM as the UDFPS dim layer comes up.",
+      "range": {
+        "startLine": 59,
+        "startChar": 0,
+        "endLine": 62,
+        "endChar": 64
+      },
+      "revId": "516b78acdb6657a0c366b65df4110640adc88a14",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
